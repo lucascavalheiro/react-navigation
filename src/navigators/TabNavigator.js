@@ -36,6 +36,7 @@ const TabNavigator = (
     tabBarOptions,
     swipeEnabled,
     animationEnabled,
+    configureTransition,
     lazy,
     ...tabsConfig
   } = mergedConfig;
@@ -55,6 +56,7 @@ const TabNavigator = (
       tabBarOptions={tabBarOptions}
       swipeEnabled={swipeEnabled}
       animationEnabled={animationEnabled}
+      configureTransition={configureTransition}
       lazy={lazy}
     />
   ));
